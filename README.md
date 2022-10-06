@@ -18,7 +18,7 @@ To invoke the main.py Python script (assuming dependencies in the requirements.t
 
 Important note: the --nr-messages parameter is optional.  However, if this parameter is not used, your main app will run continuously until forcing an exit during the runtime.
 
-These parameters will invoke the JAzzProvider class and send messages to the Kafka service running in Aiven.  JazzProvider code provided below for review:
+These parameters will invoke the JazzProvider class and send messages to the Kafka service running in Aiven.  JazzProvider code provided below for review:
 
 ```python
 class JazzProvider(BaseProvider):
