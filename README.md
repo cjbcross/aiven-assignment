@@ -20,7 +20,7 @@ Important note: the --nr-messages parameter is optional.  However, if this param
 
 These parameters will invoke the JAzzProvider class and send messages to the Kafka service running in Aiven.  JazzProvider code provided below for review:
 
-```
+```python
 class JazzProvider(BaseProvider):
     def musician_names(self):
         valid_musician_names = [
